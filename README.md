@@ -2,4 +2,4 @@
 
 Deployed website: https://dmescoba.github.io/pui-homework-template/
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/dmescoba/pui-homework-template/tree/main
