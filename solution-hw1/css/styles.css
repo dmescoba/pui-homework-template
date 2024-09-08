@@ -87,7 +87,12 @@ h1 {
     background-color: yellow;
 }
 
-.product-gallery section:hover p:first-of-type{
+.product-gallery h2{
+    font-weight: 400;
+    font-size: medium;
+}
+
+.product-gallery section:hover h2{
     font-weight: bold;
 }
 
@@ -124,6 +129,11 @@ h1 {
    padding: 10px;
 }
 
+.shopping-cart h2{
+    font-weight: 400;
+    font-size: medium;
+}
+
 /************** PRODUCT DETAILS **************/
 
 .product-details section {
@@ -158,4 +168,9 @@ select {
     flex-direction: row;
     margin-top: 50px;
     justify-content: space-around;
+}
+
+.product-details h2{
+    font-weight: 400;
+    font-size: medium;
 }
