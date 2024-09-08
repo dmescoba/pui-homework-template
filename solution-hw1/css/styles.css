@@ -1,3 +1,4 @@
+/************** GLOBALS **************/
 * {
     box-sizing: border-box;
 }
@@ -22,7 +23,6 @@ nav ul {
     align-items: center;
     justify-content: center;
 }
-
 
 a {
     text-decoration: none;
@@ -70,7 +70,6 @@ h1 {
     align-items: center;
     flex-direction: column;
 }
-
 
 /************** PRODUCT GALLERY **************/
 
