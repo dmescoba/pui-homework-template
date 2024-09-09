@@ -95,6 +95,10 @@ h1 {
     font-weight: bold;
 }
 
+.product-gallery section h2 {
+    text-decoration: underline;
+}
+
 /************** SHOPPING CART **************/
 
 .shopping-cart section {
