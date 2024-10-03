@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/rollsData.js" defer></script>
+    <script src="./js/main.js" defer></script>
+</head>
+<body>
+    
+    <!-- =================== Navigation =================== -->
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo"></a>
+            <div class="links-structure">  
+                <ul>
+                    <li><a href="index.html" aria-current="page">PRODUCTS</a></li>
+                    <li><a href="shopping-cart.html">CART</a></li>
+                </ul>
+                <hr>  
+                <h1 id="roll-heading">Original cinnamon roll</h1>        
+            </div>
+
+        </nav>
+    </header>
+
+        <!-- =================== Main Content =================== -->
+        <main class="product-details">
+            
+            <!-- =================== Row Structure Div =================== -->
+            <div class="product-details-rows">
+
+                <!-- =================== Image =================== -->
+                <div class="product-details-img">
+                    <img id="roll-img" src="../assets/products/original-cinnamon-roll.jpg" alt="original-cinnamon-roll">
+                </div>
+
+                <!-- =================== Col Structure Div =================== -->
+                <div class="product-details-cols">
+
+                    <!-- =================== Description =================== -->
+                    <section class="product-details-description">
+                        <h2 class="w-200">Customize our delicious, hand-made cinnamon roll to your liking!</h2>
+                    </section>
+
+                    <!-- =================== Glazing Drop Down =================== -->
+                    <section class="product-details-drop-downs">
+                            <h2>Glazing</h2>
+                            <select name="glazing" id="glazing">
+                                <option value="keep-original">Keep original</option>
+                                <option value="sugar-milk">Sugar milk</option>
+                                <option value="vanilla-milk">Vanilla Milk</option>
+                                <option value="double-chocolate">Double chocolate</option>
+                            </select>
+                    <!-- =================== Pack Size Drop Down =================== -->
+                            <h2>Pack size</h2>
+                            <select name="pack-size" id="pack-size">
+                                <option value="1">1</option>
+                                <option value="3">3</option>
+                                <option value="6">6</option>
+                                <option value="12">12</option>
+                            </select>
+                    </section>
+
+                    <!-- =================== Checkout =================== -->
+                    <section class="product-details-cta">
+                        <h2 id="total-price">$2.49</h2>
+                        <button id="add-to-cart">Add to Cart</button>
+                    </section>
+
+                </div>
+            </div>
+
+
+        </main>
+</body>
+</html>
