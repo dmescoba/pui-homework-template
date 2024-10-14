@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/rollsData.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <script src="./js/cart.js" defer></script>
+</head>
+<body>
+    <!-- =================== Navigation =================== -->
+    <header>
+        <nav>
+            <a href="index.html"><img class="logo" src="../assets/logo/logo-01.svg" alt="Bun Bun Bake Shop Logo"></a>
+            <div class="links-structure">  
+                <ul>
+                    <li><a href="index.html">PRODUCTS</a></li>
+                    <li><a href="shopping-cart.html" aria-current="page">CART</a></li>
+                </ul>
+                <hr>    
+                <h1>Our hand-made cinnamon rolls</h1>      
+            </div>
+        </nav>
+    </header>
+
+    <!-- =================== Main Content =================== -->
+    <main class="shopping-cart">
+
+        <!-- =================== Structure Div =================== -->
+        <div class="shopping-cart-structure">
+
+            <div id="cart-container"></div>
+                    <template id="cart-template">
+                    <!-- =================== Product =================== -->
+                    <section class="item">
+                        <div class="item-img">
+                            <img id="cart-img" src="../assets/products/original-cinnamon-roll.jpg" alt="Original cinnamon roll">
+                            <p id="cart-remove-button" class="remove-item">Remove</p>
+                        </div>
+                        <div class="item-details">
+                            <h2 id="cart-item-name"></h2>
+                            <p id="cart-glazing"></p>
+                            <p id="cart-pack-size"></p>
+                        </div>
+                        <div id="cart-item-price" class="item-price">
+                            <p></p>
+                        </div>
+                    </section>
+            
+                </template>
+            
+            <!-- =================== Checkout =================== -->
+            <section class="dif-section-spacing checkout-details">
+                <hr>
+                <div class="total-price">
+                    <h2>Total:</h2>
+                    <p id="total-cart-price">$29.94</p>
+                </div>
+                <div class="checkout-details-button">
+                    <button>Checkout</button>
+                </div>
+            </section>
+
+        </div>
+    </main>
+</body>
+</html>
