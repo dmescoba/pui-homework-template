@@ -116,48 +116,80 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 ## Project Description
 
-Briefly restate your motivation and a short description of your project.
+I intend to use JavaScript to add interactivity into the homepage of my existing portfolio. In addition to this goal, I also intend on cleaning up the organization and implementation of the original code to be aligned with best practices. 
 
 ## High-Fi Prototypes
 
 ### *Prototype 1*
 
-![title for prototype1](images/prototype1.png)
+![Mountain Landscape Parallax](./imgs/parallax-1.png)
 
-A brief description and summary of the user feedback (\<100 words, 2 images) 
+Users liked how the concept aligned with my professional brand, and thought the illustration would be a unique way to show off multiple of my skills.
 
 ### *Prototype 2*
 
+![Abstract Animation](./imgs/abstract-1.png)
+
+Users thought the animation was very eye catching.   
 …
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+During usability testing of my prototypes, users provided valuable feedback on areas for improvement During usability testing of my prototypes, users provided valuable feedback on areas for improvement and challenged me to choose ideas that were more feasible and better aligned with my story. One of the prototypes I presented featured a parallax effect of a mountain landscape. Users suggested that adding more visual assets would enhance the experience, making the image more engaging. Specifically, they recommended incorporating elements like wind turbines to emphasize the theme of nature and renewable energy, along with movable clouds to create a more dynamic scrolling interaction.
+
+I also addressed earlier feedback about my portfolio homepage. Previously, I had a generic statement about my skills as a UX Designer, which users felt was unnecessary. However, they appreciated the inclusion of my work and academic experiences. For my updated prototype, I simplified the homepage to feature only my job title, name, and highlights of my most recent work and academic experiences. This approach was intended to encourage users to scroll and interact with the parallax effect, making the experience more exploratory and engaging.
+
+For the more abstract version of my website, users appreciated that it was more engaging compared to the previous prototype, particularly because the interactivity was accessible without any need for scrolling. However, they suggested that the animation would be more captivating if it incorporated additional lines. I updated the designs accordingly to reflect this feedback. While users found the animation visually striking and attention-grabbing, they also felt that the earlier prototype better conveyed my identity as a designer, as it directly connected to my transition into the energy industry.
+ 
 
 ## Updated Designs
+![Mountain Landscape Parallax](./imgs/parallax.png)
+[Prototype: Mountain Landscape Parallax](https://www.figma.com/proto/ZpOXXe3R0uDV0fITwOGaqM/PUI-Portfolio-Prototype?node-id=2-77&node-type=frame&t=0bYmgiiz04OqSiFR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A77&show-proto-sidebar=1)
 
-Show screenshots of your updated design based on the user feedback (\<100 words, \~2 images).
+
+For the Mountain Landscape Parallax, I added in the wind turbines to better reflect the theme and clouds to make the parallax look more realistic. 
+
+![Abstract Animation](./imgs/lines-animation.png)
+[Prototype: Abstract Animation](https://www.figma.com/proto/ZpOXXe3R0uDV0fITwOGaqM/PUI-Portfolio-Prototype?node-id=47-974&node-type=frame&t=06YVWoJ4eeemGlfE-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=30%3A86&show-proto-sidebar=1)
+
+
+I made the lines thinner and added an animation of the arrow bouncing to draw the user's attention to the next portion of the website. 
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
+When usability testing my homepage design, I also shared my current website to gather additional feedback on other project components. Users pointed out that the headings on my individual project pages should emphasize the key takeaways from each exercise, rather than simply naming the exercise itself. For instance, instead of labeling a section on “Bubbly” as “Competitor Analysis,” they suggested using a more meaningful heading like “Existing apps charge for necessary customization,” which better captures the main insight.
+
+Users also encouraged me to think about how my professional brand should be represented in my portfolio. I presented two concepts, but I felt much more confident about the mountain landscape idea because it ties closely to my transition into the energy industry. Beyond being more relevant to my story, users agreed that this idea was visually richer and more engaging, especially after I incorporated additional assets into the design.
+
+I updated my designs by adding new assets to make the parallax effect more realistic and engaging. Instead of featuring only a mountain landscape, I incorporated wind turbines and clouds to enhance the scene's depth and interest. The clouds were designed to move, contributing to the parallax effect, and I’m considering animating the turbines to spin, adding a more dynamic and immediate sense of animation to this version. 
+
 
 ## Milestones
 
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words). 
+With FP1 and FP2 completed and the parallax option selected, my plan now focuses on three main components. First, I need to review my existing code and create a strategy for replacing any elements that are not accessible. On my project pages, several components should be coded rather than displayed as images, so I need to determine the best way to present that information effectively.
+
+Once I have a solution for these accessibility challenges, I’ll move on to developing the parallax component of the project. This will involve creating custom assets in Illustrator and using JavaScript to integrate them into my homepage. Fine-tuning the parallax effect will require some time, so I’m estimating about a week and a half for that part of the process. After completing the parallax homepage—which is my primary goal—I plan to use the remaining time to optimize my code and align it with best practices.
+
 
 ### *Implementation Plan*
 
 - [ ] Week 9 Oct 28 \- Nov 1:
   - [X] FP1 due
-  - [ ] ...
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
-  - [ ] FP2 due
+  - [X] FP2 due
+  - [] Evaluate existing code and make note of all portions to be updated
+  - [] Make implementation plan
 
 - [ ] Week 11 Nov 11 \- Nov 15:  
+  - [] Create parallax illustrations
+  - [] Begin coding parallax
+
 - [ ] Week 12 Nov 18 \- Nov 22:   
+  - [] Finish coding parallax
+
 - [ ] Week 13 Nov 25 \- Nov 29:  
+  - [] Make best practices and photo changes to existing site
 
   - [ ] Thanksgiving  
 - [ ] Week 14 Dec 2 \- Dec 6:  
@@ -165,29 +197,27 @@ Outline weekly milestones to plan your expected implementation progress until th
 
 ### *Libraries and Other Components*
 
-List the JS libraries and other components (if applicable) that you plan to use. 
-* 
+I plan to implement the parallax effect using vanilla JavaScript, though further research may reveal that it could be more efficient to incorporate it with frameworks like React or jQuery. Additionally, I’ll be using Bootstrap as the foundational framework for this project.
 
 
 ## Generative AI Use Plan
 
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
+I plan to leverage generative AI to learn more about implementing parallax effects, assist with debugging my code, and potentially generate imagery for the scenery on my website. I'm especially interested in using AI for image generation to inspire and enhance my design ideas.
+
 
 ### *Tool Use*
 
- What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
-
 * ChatGPT  
-  * I will use it for … because it can help me …  
-  * I will not use it for … because it might not be able to help me with …   
-* GitHub Copilot  
-* ...
+  * I will use it to learn about parallax because it can help me understand how it works and what information might be helpful in approaching this from both a design and development perspective 
+  * I will not use it for creating assets because it might not be able to help me with creating high quality illustrations that I am able to use on my website.  
+* Illustrator
+  * I will use it to draw my assets because it is an efficient tool that I am familiar with
+  * The generative features in Illustrator might not be able to help me with idea generation, but for simple things like blurring backgrounds and blending colors.
 
 ### *Responsible Use*
 
-How would you use Generative AI responsibly? 
+I will use AI responsibly by crediting it when I have used it to generate design assets. I will also provide credit if a method of writing code I have used was taught to me by the AI as well. 
 
----
 
 # **FP1 \- Proposal for Critique**
 
