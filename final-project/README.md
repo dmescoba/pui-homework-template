@@ -131,7 +131,6 @@ Users liked how the concept aligned with my professional brand, and thought the 
 ![Abstract Animation](./imgs/abstract-1.png)
 
 Users thought the animation was very eye catching.   
-…
 
 ## Usability Test
 
@@ -143,13 +142,13 @@ For the more abstract version of my website, users appreciated that it was more 
  
 
 ## Updated Designs
-![Mountain Landscape Parallax](./imgs/parallax.png)
+![Mountain Landscape Parallax](./imgs/parallax-2.png)
 [Prototype: Mountain Landscape Parallax](https://www.figma.com/proto/ZpOXXe3R0uDV0fITwOGaqM/PUI-Portfolio-Prototype?node-id=2-77&node-type=frame&t=0bYmgiiz04OqSiFR-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A77&show-proto-sidebar=1)
 
 
 For the Mountain Landscape Parallax, I added in the wind turbines to better reflect the theme and clouds to make the parallax look more realistic. 
 
-![Abstract Animation](./imgs/lines-animation.png)
+![Abstract Animation](./imgs/abstract-2.png)
 [Prototype: Abstract Animation](https://www.figma.com/proto/ZpOXXe3R0uDV0fITwOGaqM/PUI-Portfolio-Prototype?node-id=47-974&node-type=frame&t=06YVWoJ4eeemGlfE-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=30%3A86&show-proto-sidebar=1)
 
 
