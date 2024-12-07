@@ -4,109 +4,96 @@
 
 
 
-* What is the purpose of your website?   
-* Who is the target audience?  
-* What information do you convey with your website?   
-* How is it interesting and engaging? 
+My website is a UX Design portfolio intended to show my projects to future employers. I believe this website conveys not only my skills as a designer, but also as a front-end developer. The animations onn both the Homepage and About Me page make the website engaging because they catch the user's attention and encourage them to continue scrolling.  
 
 ## Part 2: User Interaction
 
-How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
+Users can interact with my website through the followingg interactions: 
 
-1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
+1. Filtering case studies. Scroll to the "Projects" section on the Homepage. Click on "Choose" in the filter. Select a filter to view the corresponding projects. 
+2. Viewing Project pages. Click on the "Bubbly" project. Scroll through the page, either by using the section navigation on the left side of the screen after the Hero section on desktop or by clicking on the "Open Navigation" button on mobile. 
+3. Viewing About Me page animated timeline. Click on "About Me" blue button on homepage, or "About Me" link on navigation bar. View the timeline of my resume with the option to download a PDF.  
 
 ## Part 3: External Tool
 
 Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
 
-1. Name of tool1  
-   * Why did you choose to use it over other alternatives? (2 sentences max)  
-   * How you used it? (2 sentences max)  
-   * What does it add to your website? (2 sentences max)  
-2. Name of tool2
+1. Anime.Js  
+   * I chose this tool because it had interesting animations that I wanted to include on my website. I was particularly impressed with the line drawing animation for SVGs, and wanted to include that as the focal point on my homepage when the site initially loads to draw my name. 
+   * I used the tool for most of the animations on my portfolio, including the Homepage Hero content appearing and the timeline animation on the About Me page. 
+   * My name on the homepage uses the line drawing animation and a timeline animation to stagger when the other content appears. I also use it to make the dots for the timeline appear and bounce into the line. 
+2. Bootstrap
+   * I have used Bootstrap in the past and wanted to continue leveraging this tool because I think it's very user friendly and has great design. I initially wanted to learn React for this project, but was cautioned that that may have been too ambitious given my timeline.  
+   * I used Bootstrap to style all of the CSS for my website. 
+   * Bootstrap adds a consistency and organization to my website that is challenging to pull off with all custom code. I think it makes the content very reusable and easy to follow for future iterations. 
 
 ## Part 4: Design Iteration
 
-Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+My initial idea was to add parallax to my Homepage. I deviated from this idea because I worried it would make my portfolio look less professional and distract from the goal to informm future employers about my previous projects. I thought using a clean animation like the line drawing from Anime.js would better convey my style. I maintained the goal to make the homepage more engaging and less generic, as well as to include a resume timeline on my About Me page  with the option to download. Additionally, I added a project filter to make the website more complex and user-friendly. 
 
 ## Part 5: Implementation Challenge
 
-What challenges did you experience in implementing your website? (2-4 sentences max)
+I experienced a huge challenge with getting Anime.js to work on my deployed website instead of just locally. There was also a sizable amount of content that I wanted to include on my portfolio, and ultimately decided on creating one project page as a reusable template to be implemented on other project pages in the future. 
 
 ## Part 6: Generative AI Use and Reflection
 
-Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
-
-Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
+ChatGPT was the most helpful to me in learning about accessibility standards when coding, debugging my code, and learning the documentation for both Anime.js and Bootstrap. I have always included alt text with my images, but ChatGPT taught me about aria-label and aria-labelledby, which helped me to make my code more easily navigatable. I also learned to include figurecaption for associated images as well as alt text. ChatGPT is great for answering questions about how to debug and fix code, but it doesn't have the same context as I do about my code, so it is not very helpful for writing it. Additionally, the debugging isn't always correct, and so it's only helpful in some instances. 
 
 ### Usage Experiences by Project Aspects
 
-Feel free to edit the column \_ (other?) or add more columns if there's any other aspect in your project you've used the GenAI tools for.
-
-For the following aspects of your project, edit the corresponding table cell to answer:
-- *Usage*: Whether you used / did not use this tool for the aspect. Enter [Yes/No]
-- *Productivity*: Give a rating on whether this tool makes your productivity for X aspect [1-Much Reduced, 2-Reduced, 3-Slightly Reduced, 4-Not Reduced nor Improved, 5-Slightly Improved, 6-Improved, 7-Much Improved].
-
-| Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
+| Tool Name | Ratings | design | plan | write code | debug | Learn Documentation |Learn Accessibility Standards |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
-| Tool2| Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool2 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
+| ChatGPT | Usage | No | Yes | Yes | No | Yes | Yes | Yes |
+| ChatGPT | Productivity | NA | 3 | 3 | 5 | 7 | 7 | 7 |
 
 
 ### Usage Reflection
 
 > Impact on your design and plan 
-* It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
-* It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
-* GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. Tool1: 
-  2. Tool2:
+* It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that it would be useful for learning about best practicies. For example, 
+  1. ChatGPT: It taught me about aria-label, aria-labelledby, and figure caption, as well as standards for how to make sure it is well-written.  
+  2. ChatGPT: it helped me to sort through the Bootstrap and Anime.js documentation to find classes/functions that applied to my use case very efficiently. 
+
 
 > Use patterns
-* I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
-* I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
-  2. Tool2: 
+* I accepted the generations when it concerned accessibility best practices. For example, 
+  1. ChatGPT: This tool once suggested that I include aria-labels in my sections to helpl guide users and I adjusted my design according to the suggestion because I wasn't aware of how helpful it was. I thought that proper text hierarchy and alt text would be sufficient, but there was much more to be learned.  
+* I critiqued/evaluated the generated suggestions by debugging code For example, 
+  1. ChatGPT: This tool once suggested fixing an Anime.js animation incorrectly, and I rejected the suggestion after readind the documentation and determining what was causing the issue. 
 
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: 
+  1. ChatGPT: Great for learning about a new concept that you know little to nothing about and debugging complex errors in code. 
   2. Tool2:
 * Cons
-  1. Tool1: 
-  2. Tool2:
+  1. ChatGPT: Not always correct in its suggestions and lacks context. 
 
 
 ### Usage Log
 
 Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
 
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.): export chat histories relevant to this project.
+1. [ChatGPT]https://chatgpt.com/share/6754a049-e910-8000-8585-bb4f1404196b 
 
 ---
 
 # **FP3 \- Final Project Check-in**
 
-Document the changes and progress of your project. How have you followed or changed your implementation & GenAI use plan and why? Remember to commit your code to save your progress.
+After exploring animation libraries and feasibility given my timeline, I have decided to utilize Anime.js to add animations to the website. I have opted for a more simplified homepage that leverages Anime.js animations for making the hero content appear, as well as animating a resume timeline on the About me Page. Additionally, I have added a filter to the projects section using JavaScript and a responsive offcanvas component to project pages to appear on scroll. Since I am no longer exploring the parallax idea, I have instead used generative AI to help me understand and sort through the documentation for Bootstrap and Anime.js. 
 
 ## Implementation Plan Updates
 
-- [ ] ...
+- [ ] Add anime.js to project
+- [ ] Review Bootstrap documentation
+- [ ] Explore ways of adding complexity into project, such as a project filter
+
 
 ## Generative AI Use Plan Updates
 
-- [ ] ...
+- [ ] Using generative AI to help me understand the anime.js documentation and use cases, such as what is possible and what is not
+- [ ] Using generative AI to help me sort through the Bootstrap documentation to find the correct classes and components for my desired output
+
 
 Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
 
