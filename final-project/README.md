@@ -76,8 +76,8 @@ Document the usage logs (prompts and chat history links) for the GenAI tools you
 ## Part 7: Accessibility
 
 ![Homepage Accessibility Checker](./imgs/homepage.png)
-![About Page Accessibility Checker](./imgs/about.png.png)
-![Projects Page Accessibility Checker](./imgs/projects.png.png)
+![About Page Accessibility Checker](./imgs/about.png)
+![Projects Page Accessibility Checker](./imgs/projects.png)
 ---
 
 # **FP3 \- Final Project Check-in**
