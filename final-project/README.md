@@ -75,9 +75,42 @@ Document the usage logs (prompts and chat history links) for the GenAI tools you
 
 ## Part 7: Accessibility
 
-![Homepage Accessibility Checker](./imgs/homepage.png)
-![About Page Accessibility Checker](./imgs/about.png)
-![Projects Page Accessibility Checker](./imgs/projects.png)
+### Homepage Accessibility Checker Summary
+![Homepage Accessibility Checker Summary](./imgs/homepage-summary.png)
+
+### Homepage Accessibility Checker Details
+![Homepage Accessibility Checker Details](./imgs/homepage-details.png)
+
+### About Page Accessibility Checker Summary
+![About Page Accessibility Checker Summary](./imgs/about-summary.png)
+
+### About Page Accessibility Checker Details
+![About Page Accessibility Checker Details](./imgs/about-details.png)
+
+### Bubbly Accessibility Checker Summary
+![Bubbly Accessibility Checker Summary](./imgs/bubbly-summary.png)
+
+### Bubbly Accessibility Checker Details
+![Bubbly Accessibility Checker Details](./imgs/bubbly-details.png)
+
+### AWS Page Accessibility Checker Summary
+![AWS Accessibility Checker Summary](./imgs/aws-summary.png)
+
+### AWS Page Accessibility Checker Details
+![AWS Page Accessibility Checker Details](./imgs/aws-details.png)
+
+### Lumen Page Accessibility Checker Summary
+![Lumen Accessibility Checker Summary](./imgs/lumen-summary.png)
+
+### Lumen Page Accessibility Checker Details
+![Lumen Accessibility Checker Details](./imgs/lumen-details.png)
+
+### Projects Page Accessibility Checker Summary
+![Projects Page Accessibility Checker Summary](./imgs/projects-summary.png)
+
+### Projects Page Accessibility Checker Details
+![Projects Page Accessibility Checker Details](./imgs/projects-details.png)
+
 ---
 
 # **FP3 \- Final Project Check-in**
