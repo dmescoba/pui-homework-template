@@ -39,11 +39,10 @@ ChatGPT was the most helpful to me in learning about accessibility standards whe
 
 ### Usage Experiences by Project Aspects
 
-| Tool Name | Ratings | design | plan | write code | debug | Learn Documentation |Learn Accessibility Standards |
-| :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| ChatGPT | Usage | No | Yes | Yes | No | Yes | Yes | Yes |
-| ChatGPT | Productivity | NA | 3 | 3 | 5 | 7 | 7 | 7 |
-
+| Tool Name | Usage | Design | Plan | Write Code | Debug | Learn Documentation | Learn Accessibility Standards |
+| :-------- | :----: | :----: | :--: | :--------: | :---: | :-----------------: | :---------------------------: |
+| ChatGPT   | Yes    | No     | Yes  | Yes        | No    | Yes                 | Yes                           |
+| Ratings   | NA     | 3      | 3    | 5          | 7     | 7                   | 7                             |
 
 ### Usage Reflection
 
