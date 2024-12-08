@@ -1,0 +1,122 @@
+.index .card {
+transition: all 0.3s;
+}
+
+.index .card:hover {
+transform: scale(1.05);
+}
+
+html footer i:hover {
+    transform: scale(1.15);
+    }
+
+$primary: #63ABFF;
+
+
+.bg-centible {
+    background-color: #B98FB5;
+}
+
+.bg-bubbly {
+    background-color: #ACC39A;
+}
+
+.bg-inquery {
+    background-color: #ACA7F7;
+}
+
+.bg-cupboard {
+    background-color: #81B2D4;
+}
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+/* Youtube video where I learned how to modify original Bootstrap : https://www.youtube.com/watch?v=cFjWCTk6lXc&t=157s */
+
+.line-drawing {
+    stroke-dasharray: 0;
+    stroke-dashoffset: 0;
+    stroke-linecap: round; 
+    stroke-linejoin: round; 
+  }
+
+/////////////////////timeline //////////////////
+/* Vertical line for timeline */
+.timeline {
+    position: relative;
+    margin: 2rem 0;
+    padding-left: 2rem;
+}
+
+.timeline-line {
+    position: absolute;
+    left: 15%;
+    // left: 1.2rem;
+    width: 4px;
+    height: 100%;
+    transform-origin: top;
+
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 14.5%;
+    // left: 0.8rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+
+}
+
+// @media (max-width: 1400px) {
+//     .timeline-line {
+//         left: 10%;
+//     }
+//     .timeline-dot {
+//         left: 9.5%;
+//     }
+// }
+
+// @media (max-width: 1400px) {
+//     .timeline-line {
+//         left: 30%;
+//     }
+//     .timeline-dot {
+//         left: 29.5%;
+//     }
+// }
+
+// @media (max-width: 1200px) {
+//     .timeline-line {
+//         left: 25%;
+//     }
+//     .timeline-dot {
+//         left: 24.5%;
+//     }
+// }
+
+// @media (max-width: 992px) {
+//     .timeline-line {
+//         left: 20%;
+//     }
+//     .timeline-dot {
+//         left: 19.4%;
+//     }
+// }
+
+// @media (max-width: 768px) {
+//     .timeline-line {
+//         left: 15%;
+//     }
+//     .timeline-dot {
+//         left: 14.3%;
+//     }
+// }
+
+// @media (max-width: 576px) {
+//     .timeline-line {
+//         left: 1rem;
+//     }
+//     .timeline-dot {
+//         left: 0.6rem;
+//     }
+// }

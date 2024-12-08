@@ -2,8 +2,6 @@
 
 ## Part 1: Website Description
 
-
-
 My website is a UX Design portfolio intended to show my projects to future employers. I believe this website conveys not only my skills as a designer, but also as a front-end developer. The animations onn both the Homepage and About Me page make the website engaging because they catch the user's attention and encourage them to continue scrolling.  
 
 ## Part 2: User Interaction
@@ -76,6 +74,11 @@ Document the usage logs (prompts and chat history links) for the GenAI tools you
 
 1. [ChatGPT]https://chatgpt.com/share/6754a049-e910-8000-8585-bb4f1404196b 
 
+## Part 7: Accessibility
+
+![Homepage Accessibility Checker](./imgs/homepage.png)
+![About Page Accessibility Checker](./imgs/about.png.png)
+![Projects Page Accessibility Checker](./imgs/projects.png.png)
 ---
 
 # **FP3 \- Final Project Check-in**
